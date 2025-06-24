@@ -1,0 +1,255 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+@media (min-width:1400px){
+body{background-color: rgb(255, 255, 255);}}
+
+@font-face{
+    font-family: Cinzel;
+    src:url(/FONT/Cinzel/Cinzel-Regular.otf)
+}
+
+@font-face{
+    font-family: Belgiano;
+    src:url(/FONT/Belgiano/Belgiano\ Serif\ 2.ttf)
+}
+
+
+
+#home{
+  
+  height:600px;
+  width: 100%;
+  
+}
+
+a{
+    padding-left: 70px;
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+}
+
+#Menu{
+   height: 60px;
+   width: 90px;
+}
+
+.xree{
+background-color: #00BB77;
+   
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+text-decoration: none;
+padding-left:200px;
+width: 100%;
+margin-top: -2px;
+
+}
+
+#Contatos{
+        margin-top: 146px;
+        
+        height: 210px;
+        width: 100%;
+background-color: #00BB77;
+    }
+   
+      #T{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+        color: white;
+    }
+
+    #TT{
+        display: flex;
+        justify-content: center;
+        color: white;
+        
+    }
+
+    #CT{
+        color: white;
+        font-size: 25px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #ctt{
+        height: 200px;
+        width: 300px;
+        margin-left: 610px;
+        margin-top: -60px;
+    }
+
+    #ç{
+        font-family: Cinzel;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #çç{
+        border: 1.5px solid black;
+    }
+
+    #ççç{
+        height: 400px;
+        width: 400px;
+        margin-top: 20px;
+        }
+
+        #L{
+        display: flex;
+        justify-content: center;
+        }
+
+        #q{
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            font-family: Belgiano;
+        }
+
+        #qq{
+            margin-top: 10px;
+            font-size: 30px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        #ul{
+            margin-left: 50px;
+        }
+
+        #pp{ font-size: 20px;
+        margin-left: 50px;
+    font-family: Belgiano;}
+
+    li{margin-left: 40px;
+    text-align: left;
+font-family: Belgiano;
+font-size: 20px;}
+
+#lp{
+    margin-top: 20px;
+}
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) {
+  body, a, #CT, #q, #qq, #pp, li {
+    font-size: 16px;
+  }
+
+  .xree {
+    flex-direction: column;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  #ctt, #ççç, #C1, #C2, #C3, #C4, #C5, #A1, #A2, #A3, #A4, #A5, #J1, #J2, #J3, #J4, #J5 {
+    width: 95%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  #Contatos {
+    padding: 10px;
+    height: auto;
+  }
+
+  .Re {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Menu {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablets (481px a 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  body, a, #CT, #q, #qq, #pp, li {
+    font-size: 18px;
+  }
+
+  .xree {
+    flex-direction: column;
+    font-size: 24px;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  #ctt, #ççç {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  #Contatos {
+    height: auto;
+    padding: 15px;
+  }
+
+  .Re {
+    flex-direction: column;
+  }
+
+  #Menu {
+    width: 100%;
+  }
+}
+
+/* Notebooks (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .xree {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  #ctt {
+    margin-left: 200px;
+    width: 60%;
+  }
+
+  #ççç {
+    width: 300px;
+  }
+
+  #Contatos {
+    height: auto;
+  }
+
+  #Menu {
+    width: 100px;
+  }
+}
+
+/* Telas médias (1025px a 1399px) */
+@media (min-width: 1025px) and (max-width: 1399px) {
+  .xree {
+    font-size: 36px;
+    padding-left: 80px;
+  }
+
+  #ctt {
+    margin-left: 300px;
+    width: 400px;
+  }
+
+  #ççç {
+    width: 350px;
+  }
+}

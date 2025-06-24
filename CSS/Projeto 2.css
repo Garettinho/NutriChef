@@ -1,0 +1,251 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Cinzel;
+    src:url(../FONT/Cinzel/Cinzel-Regular.otf)
+}
+
+@font-face{
+    font-family: Simply;
+    src:url(../FONT/Simply/SimplyMono-Bold.ttf)
+}
+
+
+#a{
+    text-decoration: none;
+}
+
+@media (min-width:1400px){
+body{background-color: rgb(255, 255, 255);}
+}
+
+#home{
+  
+  height: 1500px;
+  width: 100%;
+  
+}
+
+#Menu{
+   height: 60px;
+   width: 90px;
+}
+
+.xree{
+background-color: #00BB77;
+   
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+text-decoration: none;
+padding-left: 100px;
+position: fixed;
+width: 100%;
+margin-top: -2px;
+}
+
+a{
+    padding-left: 70px;
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+}
+
+
+
+#Capa{
+    height: 600px;
+    width: 1000px;
+    margin-top: 80px;
+    margin-left: 340px;
+    
+}
+
+#R{
+    font-size: 50px;
+    margin-left: 340px;
+    font-family: Cinzel;
+}
+
+#I{
+    font-size: 20px;
+    margin-left: 340px;
+    font-family: Cinzel;
+}
+
+.linha-centralizada {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 40px 0 10px;
+    }
+
+.linha-centralizada::before,
+.linha-centralizada::after {
+      content: '';
+      flex: 1;
+      border-bottom: 1px solid #ccc;
+      margin: 0 20px;
+    }
+
+.titulo {
+      font-weight: bold;
+      font-size: 30px;
+      
+    }
+
+.subtitulo {
+      margin-top: 8px;
+      margin-left: 600px;
+      font-size: 18px;
+      color: #444;
+    }
+
+    #Café{
+height:300px ;
+width: 300px;
+}
+
+      #Almoço{
+height:300px ;
+width: 300px;
+        
+    }
+
+      #Jantar{
+height:300px ;
+width: 300px;
+        
+    }
+
+    .Foto{
+        margin-top: 50px;
+        margin-left: 230px;
+        display:flex ;
+        flex-direction: row;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        justify-content: space-around;
+        
+    }
+
+    #g{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        font-family: Simply;
+    }
+
+    #Contatos{
+        margin-top: 50px;
+      
+        height: 210px;
+        width: 100%;
+background-color: #00BB77;
+    }
+   
+    #T{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+        color: white;
+    }
+
+    #TT{
+        display: flex;
+        justify-content: center;
+        color: white;
+        
+    }
+
+    #CT{
+        color: white;
+        font-size: 25px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #ctt{
+        height: 200px;
+        width: 300px;
+        margin-left: 610px;
+        margin-top: -60px;
+    }
+
+    @media (max-width: 1024px) {
+  #Capa {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #R,
+  #I {
+    margin-left: 20px;
+  }
+
+  .subtitulo {
+    margin-left: 20px;
+  }
+
+  .Foto {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .text {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  #ctt {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .xree {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  a {
+    padding-left: 10px;
+  }
+
+  #Menu {
+    width: 60px;
+  }
+
+  #Contatos {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  #T,
+  #TT,
+  #CT {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #Café,
+  #Almoço,
+  #Jantar {
+    width: 100%;
+    height: auto;
+  }
+
+}
+

@@ -1,0 +1,230 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+@media (min-width:1400px){
+body{background-color: rgb(255, 255, 255);}
+}
+
+#home{
+  
+  height:600px;
+  width: 100%;
+  
+}
+
+#Menu{
+   height: 60px;
+   width: 90px;
+}
+
+.xree{
+background-color: #00BB77;
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+text-decoration: none;
+padding-left:190px;
+width: 100%;
+margin-top: -2px;
+}
+
+a{
+    padding-left: 70px;
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+}
+
+#Contatos{
+        margin-top: 146px;
+       
+        height: 210px;
+        width: 100%;
+background-color: #00BB77;
+    }
+   
+    #T{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+        color: white;
+    }
+
+    #TT{
+        display: flex;
+        justify-content: center;
+        color: white;
+        
+    }
+
+    #CT{
+        color: white;
+        font-size: 25px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #ctt{
+        height: 200px;
+        width: 300px;
+        margin-left: 610px;
+        margin-top: -60px;
+    }
+
+    
+    .CM{
+    color: black;
+font-size: 30px;
+font-family: Cinzel;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+ #C1{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+        
+    }
+
+     #C2{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+       
+    }
+
+     #C3{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+       
+    }
+
+     #C4{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+       
+    }
+
+     #C5{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+       
+    }
+
+.Re{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .ç{
+     font-size:20px;
+     margin-bottom: 15px;
+     font-family: Belgiano;
+     text-align: center;
+    }
+
+    #çç{
+    border: 1.5px solid black;
+    margin-top: 10px;
+    }
+
+
+/* Responsivo para Tablets, Celulares e Telas Pequenas */
+@media (max-width: 1200px) {
+
+  .xree {
+    flex-direction: column;
+    font-size: 32px;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  a {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  #ctt {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  #ççç, #çç {
+    width: 90%;
+    height: auto;
+  }
+
+  #q, #pp, li {
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  #qq, #ç, #CT, #TT, #T {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .Re {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .Re img, 
+  #A1, #A2, #A3, #A4, #A5,
+  #C1, #C2, #C3, #C4, #C5,
+  #J1, #J2, #J3, #J4, #J5 {
+    width: 45%;
+    height: auto;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .xree {
+    font-size: 24px;
+  }
+
+  a {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  #ctt {
+    width: 95%;
+  }
+
+  #ççç, #çç {
+    width: 95%;
+  }
+
+  .Re img, 
+  #A1, #A2, #A3, #A4, #A5,
+  #C1, #C2, #C3, #C4, #C5,
+  #J1, #J2, #J3, #J4, #J5 {
+    width: 90%;
+  }
+
+  #q, #pp, li {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  #qq, #ç, #CT, #TT, #T {
+    font-size: 20px;
+  }
+}
