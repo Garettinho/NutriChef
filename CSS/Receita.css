@@ -6,12 +6,12 @@ box-sizing: border-box;
 
 @font-face{
     font-family: Cinzel;
-    src:url(/FONT/Cinzel/Cinzel-Regular.otf)
+    src:url(./FONT/Cinzel/Cinzel-Regular.otf)
 }
 
 @font-face{
     font-family: Belgiano;
-    src:url(/FONT/Belgiano/Belgiano\ Serif\ 2.ttf)
+    src:url(./FONT/Belgiano/Belgiano\ Serif\ 2.ttf)
 }
 
 @media (min-width:1400px){
@@ -32,7 +32,7 @@ body{background-color: rgb(255, 255, 255);}
 
 .xree{
 background-color: #00BB77;
-
+display: flex;
     flex-direction: row;
     font-size: 40px;
 text-decoration: none;

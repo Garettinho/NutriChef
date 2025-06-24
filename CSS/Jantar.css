@@ -23,7 +23,7 @@ body{background-color: rgb(255, 255, 255);}
 
 .xree{
 background-color: #00BB77;
-   
+   display: flex;
     flex-direction: row;
     font-size: 40px;
 text-decoration: none;
